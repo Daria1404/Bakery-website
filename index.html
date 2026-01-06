@@ -13,34 +13,34 @@
 <body>
     <!-- Navbar start -->
     <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid ">
+        <div class="container-fluid  gap-5">
             <a class="navbar-brand" href="#">
-                <img src="./imges/logo.jpg" class=" " alt="logo">
+                <img src="./imges/logo.jpg" class="img-h " alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center gap-5  " id="navbarSupportedContent">
-                <ul class="navbar-nav  mb-2 mb-lg-0 gap-3">
+            <div class="collapse navbar-collapse justify-content-start gap-custom  " id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0 gap-3 ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active custom" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-black custom" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item text-black">
+                        <a class="nav-link text-black custom" href="#">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts</a>
+                        <a class="nav-link text-black custom" href="#">Contacts</a>
                     </li>
                 </ul>
-                <div class="d-flex ">
-                    <div><i class="fa-brands fa-square-facebook" style="color: #042b2a;"></i></div>
-                    <div><i class="fa-brands fa-twitter" style="color: #042b2a;"></i></div>
-                    <div><i class="fa-brands fa-google-plus" style="color: #042b2a;"></i></div>
+                <div class="d-flex gap-4">
+                    <div class="custom"><i class="fa-brands fa-google-plus" style="color: #042b2a;"></i></div>
+                    <div class="custom"><i class="fa-brands fa-twitter" style="color: #042b2a;"></i></div>
+                    <div class="custom"><i class="fa-brands fa-square-facebook" style="color: #042b2a;"></i></div>
                 </div>
                 <div>
                     <button class="btn btn-custom" type="button">Make an Order</button>
@@ -55,8 +55,17 @@
             <div class="carousel-item active one">
                 <img src="./imges/3.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item">
-                <img src="./imges/carousel 1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-item c-2 d-flex justify-content-center align-items-center">
+                <!-- <img src="./imges/carousel 1.jpg" class="d-block w-100" alt="..."> -->
+                 <div class="d-flex flex-column gap-5">
+                    <div>
+                        <h2 class="fw-bold display-1 text-white">Enjoy Our Food Expirience</h2>
+                        <p class="display-5 text-white">We offer a large assortment from cakes to small pastries</p>
+                        <div>
+                            <button class="text-white btn2-custom">Order Sweets!</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="carousel-item">
                 <img src="./imges/carousel 2.jpg" class="d-block w-100" alt="...">
@@ -75,26 +84,26 @@
     <!-- Specialties section start -->
     <div class="container-fluid w-100 px-4 py-5 bg1" id="featured-3">
         <h1 class="pb-2 text-center specialties-h1 fw-bold">Our Specialties</h1>
-        <div class="row  py-5 mt-5 row-cols-1 row-cols-lg-3 row-gap-3 justify-content-center">
-            <div class="feature col d-flex flex-column gap-4  w-25">
+        <div class="row  py-5 mt-5 row-cols-1 row-gap-5 row-cols-lg-3 row-gap-lg-3 justify-content-center">
+            <div class="feature col d-flex flex-column gap-4  w-100 col-custom">
                 <div class="d-flex justify-content-center">
-                    <img src="./imges/cake1.jpg" class="img-fluid w-50 rounded-3" alt="">
+                    <img src="./imges/cake1.jpg" class="img-fluid w-50 rounded-3 col-img" alt="">
                 </div>
                 <div class="specialties-caption">
                     <p>Cupcakes</p>
                 </div>
             </div>
-            <div class="feature col d-flex flex-column gap-4 w-25">
+            <div class="feature col d-flex flex-column gap-4 w-100 col-custom">
                 <div class="d-flex justify-content-center">
-                    <img src="./imges/cake2.jpg" class="img-fluid w-50 rounded-3" alt="">
+                    <img src="./imges/cake2.jpg" class="img-fluid w-50 rounded-3 col-img" alt="">
                 </div>
                 <div class="specialties-caption">
                     <p>Macarons</p>
                 </div>
             </div>
-            <div class="feature col d-flex flex-column gap-4 w-25">
+            <div class="feature col d-flex flex-column gap-4 w-100 col-custom">
                 <div class="d-flex justify-content-center">
-                    <img src="./imges/cake3.jpg" class="img-fluid w-50 rounded-3" alt="">
+                    <img src="./imges/cake3.jpg" class="img-fluid w-50 rounded-3 col-img" alt="">
                 </div>
                 <div class="specialties-caption">
                     <p>Small Cakes</p>
@@ -102,26 +111,26 @@
             </div>
 
         </div>
-        <div class="row   row-cols-1 row-cols-lg-3 row-gap-3 justify-content-center">
-            <div class="feature col d-flex flex-column gap-4 w-25">
+        <div class="row row-cols-1 row-gap-5 row-cols-lg-3 row-gap-lg-3 justify-content-center pb-lg-5">
+            <div class="feature col d-flex flex-column gap-4 w-100 col-custom">
                 <div class="d-flex justify-content-center">
-                    <img src="./imges/cake4.jpg" class="img-fluid w-50  rounded-3" alt="">
+                    <img src="./imges/cake4.jpg" class="img-fluid w-50  rounded-3 col-img" alt="">
                 </div>
                 <div class="specialties-caption">
                     <p>Croissants</p>
                 </div>
             </div>
-            <div class="feature col d-flex flex-column gap-4 w-25">
+            <div class="feature col d-flex flex-column gap-4 w-100 col-custom">
                 <div class="d-flex justify-content-center">
-                    <img src="./imges/cake5.jpg" class="img-fluid w-50 rounded-3" alt="">
+                    <img src="./imges/cake5.jpg" class="img-fluid w-50 rounded-3 col-img" alt="">
                 </div>
                 <div class="specialties-caption">
                     <p>Apple Pie</p>
                 </div>
             </div>
-            <div class="feature col d-flex flex-column gap-4 w-25">
+            <div class="feature col d-flex flex-column gap-4 w-100 col-custom">
                 <div class="d-flex justify-content-center">
-                    <img src="./imges/cake6.jpg" class="img-fluid w-50 rounded-3" alt="">
+                    <img src="./imges/cake6.jpg" class="img-fluid w-50 rounded-3 col-img" alt="">
                 </div>
                 <div class="specialties-caption">
                     <p>Cheesecake</p>
@@ -131,24 +140,26 @@
     </div>
     <!-- Specialties section end -->
     <!-- Magic section start -->
-    <div class="container-fluid w-100 h-100 bg2 col-xl-10 col-xxl-8 px-4 py-5">
-       <div class="d-flex justify-content-center">
-        <div class="d-flex flex-column gap-5">
-            <div>
+    <div class="container-fluid w-100 h-custom bg2 col-xl-10 col-xxl-8 px-4 py-5 d-flex justify-content-center align-items-center px-sm-5">
+       <div class="d-flex justify-content-center  bg3 magic-div py-md-3 ">
+        <div class="d-flex flex-column gap-4 justify-content-center align-items-center gap-md-5">
+            <div class="cake d-flex justify-content-center">
                 <i class="fa-solid fa-cake-candles" style="color: #ffffff;"></i>
+                 <!-- <i class="mbr-iconfont fa-birthday-cake fa" style="color: #ffffff;"></i> -->
             </div>
             <div>
-                <h2>Magic Processing</h2>
+                <h2 class="fw-bold display-5 magic-h2 text-white">Magic Processing</h2>
             </div>
-           <div>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe minus nisi, nostrum commodi dignissimos officiis et quaerat corrupti facilis quasi.</p>
+           <div class="d-flex justify-content-center px-3">
+             <p class="magic-para text-white text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe minus nisi, nostrum commodi dignissimos officiis et quaerat corrupti facilis quasi.</p>
            </div>
             <div>
-                <button class="btn">Discover more</button>
+                <button class="btn btn3-custom ">Discover more</button>
             </div>
         </div>
        </div>
     </div>
+    
     <!-- Magic section end -->
 
 
