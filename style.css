@@ -183,6 +183,9 @@
     .col-img{
         width: 70% !important;
     }
+    .img-h{
+        margin-left: 100px !important;
+    }
     .crousel{
     font-size:39px !important ;
     font-weight: 400 !important;
