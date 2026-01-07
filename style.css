@@ -169,6 +169,9 @@
     font-size:39px !important ;
     font-weight: 400 !important;
 }
+.cl-h2{
+    width: 60% !important;
+}
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
      .magic-div{
@@ -189,6 +192,9 @@
     .crousel{
     font-size:39px !important ;
     font-weight: 400 !important;
+}
+.cl-h2{
+    width: 60% !important;
 }
 }
 @media screen and (min-width:1200px) and (max-width:1399px) {
