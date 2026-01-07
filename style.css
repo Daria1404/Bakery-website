@@ -3,7 +3,7 @@
     src: url("./fonts/DMSans-VariableFont_opsz\,wght.ttf");
 }
 .img-h{
-    /* height: 100px !important; */
+    height: 135px !important;
 }
 .btn-custom{
     background-color: #5fcac7 !important;
@@ -14,11 +14,49 @@
     border: none !important;
     outline: none !important;
     border-radius: 50px !important;
-
 }
-.c-2{
-    background-image: url(./imges/carousel\ 4.jpg);
-    height: 140vh !important;
+.btn-custom:hover{
+    background-color: #4ca7a2 !important;
+}
+.cl-1{  
+     background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./imges/carousel1.jpg") !important;
+  background-size: cover;
+  background-position: center;
+    height: 120vh !important;
+    width: 100% !important;
+}
+.cl-2{
+     background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./imges/carousel\ 2.jpg") !important;
+  background-size: cover;
+  background-position: center;
+    height: 120vh !important;
+    width: 100% !important;
+}
+.cl-3{
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./imges/carousel\ 3.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    height: 120vh !important;
+    width: 100% !important;
+}
+.font-custom{
+    font-family: DM Sans !important;
 }
 .btn2-custom{
     background-color: #5fcac7 !important;
@@ -26,13 +64,11 @@
     line-height: 40px !important;
     font-size: 25px !important;
     font-weight: 700 !important;
-    /* padding: 0px 15px !important; */
     padding: 10px 30px !important;
     border: none !important;
     outline: none !important;
     border-radius: 50px !important;
     font-family: DM Sans !important;
-
 }
 .specialties-h1{
     color: #4b4342 !important;
@@ -52,9 +88,14 @@
     padding-top: 90px !important;
 }
 .bg2{
-    /* background-image: url(./imges/background\ img\ 2.jpg) !important;
-    opacity: 0.8 !important; */
-    background-color: rgb(95, 202, 199) !important;
+    background-image: 
+    linear-gradient(   
+      rgb(95, 202, 199, 0.8)
+    ),
+    url("./imges/background\ img\ 2.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 .h-custom{
     height: 90vh !important ;
@@ -84,21 +125,22 @@
     padding: 0px 25px !important;
     font-size: 18px !important;
      font-family: DM Sans !important;
-
 }
 .btn3-custom:hover{
     background-color: white !important;
-    color: #4b4342 !important;
-    
+    color: #4b4342 !important;   
 }
 .magic-h2{
-     font-family: DM Sans !important;
-    
+     font-family: DM Sans !important; 
 }
 .custom:hover{
     border-bottom: 2px solid #5fcac7 !important;
 }
-
+.p-custom{
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    font-family: DM Sans !important;
+}
 /* media queries */
 @media screen and (max-width:566px) {
     .magic-div{
@@ -119,11 +161,14 @@
 @media screen and (min-width:768px) and (max-width:991px) {
      .magic-div{
         width: 80% !important;
-
     }
     .magic-para{
         width: 90% !important;
     }
+    .crousel{
+    font-size:39px !important ;
+    font-weight: 400 !important;
+}
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
      .magic-div{
@@ -138,8 +183,12 @@
     .col-img{
         width: 70% !important;
     }
+    .crousel{
+    font-size:39px !important ;
+    font-weight: 400 !important;
 }
-@media screen and (min-width:1200px) {
+}
+@media screen and (min-width:1200px) and (max-width:1399px) {
      .magic-div{
         width: 70% !important;
     }
@@ -161,4 +210,41 @@
     .gap-custom{
     gap: 120px !important;
     }
+    .crousel{
+    font-size:47px !important ;
+    font-weight: 400 !important;
+}
+.customh2{
+    width: 60% !important;
+}
+}
+@media screen and (min-width:1400px) {
+     .magic-div{
+        width: 70% !important;
+    }
+    .magic-para{
+        width: 76% !important;
+    }
+    .col-custom{
+        width: 30% !important;
+    }
+    .col-img{
+        width: 70% !important;
+    }
+    .navdiv{
+        width:70% !important;
+    }
+    .img-h{
+        margin-left: 250px !important;
+    }
+    .gap-custom{
+    gap: 120px !important;
+    }
+    .crousel{
+    font-size:47px !important ;
+    font-weight: 400 !important;
+}
+.customh2{
+    width: 60% !important;
+}
 }
