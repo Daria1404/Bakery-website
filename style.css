@@ -109,6 +109,46 @@
 .cake i{
     font-size: 62px !important;
 }
+.cake2 i{
+    font-size: 62px !important;
+}
+.bg-recipes1{
+     background-image: 
+    linear-gradient(   
+      rgb(255, 255, 255, 0.6)
+    ),
+    url("./imges/background\ img\ 3.jpg") !important;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    overflow: hidden !important;
+}
+.bg-recipes2{
+    background-image: 
+    linear-gradient(   
+      rgb(255, 255, 255, 0.6)
+    ),
+    url("./imges/background\ img\ 4.jpg") !important;
+    height:75vh !important ;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    overflow: hidden !important;
+}
+.profile img{
+    border-radius: 50% !important;
+}
+.recipes-c1 p{
+      color: #4b4342 !important;
+      font-size: 22px !important;
+}
+.custom-icons:hover{
+             border-radius: 50% !important;
+        background-color: #5fcac7 !important;
+        opacity: .5 !important;
+        transition: all .25s ease !important;
+        padding: 10px 15px !important;
+}
 .magic-para{
      font-family: DM Sans !important;
      font-weight: 400 !important;
@@ -141,6 +181,14 @@
     font-weight: 400 !important;
     font-family: DM Sans !important;
 }
+.col-custom2{
+  width: 80% !important;
+}
+.col-img2{
+    width: 100% !important;
+    border-radius: 10px !important;
+}
+
 /* media queries */
 @media screen and (max-width:566px) {
     .magic-div{
@@ -157,6 +205,13 @@
     .magic-para{
         width: 80% !important;
     }
+    .col-custom2{
+  width: 40% !important;
+}
+.col-img2{
+    width: 100% !important;
+    border-radius: 10px !important;
+}
 }
 @media screen and (min-width:768px) and (max-width:991px) {
      .magic-div{
@@ -171,6 +226,13 @@
 }
 .cl-h2{
     width: 60% !important;
+}
+ .col-custom2{
+  width: 45% !important;
+}
+.col-img2{
+    width: 100% !important;
+    border-radius: 10px !important;
 }
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -195,6 +257,13 @@
 }
 .cl-h2{
     width: 60% !important;
+}
+.col-custom2{
+  width: 22% !important;
+}
+.col-img2{
+    width: 100% !important;
+    border-radius: 10px !important;
 }
 }
 @media screen and (min-width:1200px) and (max-width:1399px) {
@@ -226,6 +295,9 @@
 .customh2{
     width: 60% !important;
 }
+.col-custom2{
+    width: 20% !important;
+}
 }
 @media screen and (min-width:1400px) {
      .magic-div{
@@ -255,5 +327,16 @@
 }
 .customh2{
     width: 60% !important;
+}
+.col-custom2{
+  width: 20% !important;
+}
+.col-img2{
+    width: 100% !important;
+    border-radius: 10px !important;
+}
+.col-img2:hover{
+     background-color: white !important;
+     opacity: 0.5 !important;
 }
 }
