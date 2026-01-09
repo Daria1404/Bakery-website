@@ -129,7 +129,7 @@
       rgb(255, 255, 255, 0.6)
     ),
     url("./imges/background\ img\ 4.jpg") !important;
-    height:75vh !important ;
+    height:85vh !important ;
     background-position: 50% 50% !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -138,16 +138,25 @@
 .profile img{
     border-radius: 50% !important;
 }
+.recipes-h2{
+    color: #4b4342 !important;
+    line-height: 40px !important;
+    font-size: 2.625rem !important;
+    font-family: DM Sans !important;
+}
 .recipes-c1 p{
       color: #4b4342 !important;
       font-size: 22px !important;
 }
+.custom-icons{
+    border-radius: 50% !important;
+        background-color: #5fcac7 !important;
+         opacity: .5 !important;
+}
 .custom-icons:hover{
              border-radius: 50% !important;
-        background-color: #5fcac7 !important;
-        opacity: .5 !important;
+        background-color: #49aaa7 !important;
         transition: all .25s ease !important;
-        padding: 10px 15px !important;
 }
 .magic-para{
      font-family: DM Sans !important;
@@ -188,7 +197,27 @@
     width: 100% !important;
     border-radius: 10px !important;
 }
-
+.img-profile{
+    border-radius: 50% !important;
+}
+.bg-clients{
+     background-image: 
+    linear-gradient(   
+      rgb(255, 145, 164, 0.7)
+    ),
+    url("./imges/background\ img\ 5.jpg") !important;
+}
+.client-div{
+    width: 40% !important;
+}
+.client-div div p{
+    font-size: 16px !important;
+    font-family: DM Sans !important;
+    font-weight: 500 !important;
+}
+.customer{
+        color: #ebeaed !important;
+}
 /* media queries */
 @media screen and (max-width:566px) {
     .magic-div{
@@ -197,6 +226,33 @@
     .magic-para{
         width: 100% !important;
     }
+    .recipes-c1 p{
+      font-size: 19px !important;
+}
+.recipes-h2{
+      font-size: 40px !important;
+}
+.profile{
+   width: 100% !important;
+}
+.client-div{
+    width: 100% !important;
+}
+.first-div{
+    width: 100% !important;
+}
+.first-div div{
+    width: 100% !important;
+}
+.img-profile{
+    width: 25% !important;
+}
+.customh2{
+    font-size: 33px !important;
+}
+.p-custom{
+    font-size: 22px !important;
+}
 }
 @media screen and (min-width:567px) and (max-width:767px) {
     .magic-div{
@@ -211,6 +267,30 @@
 .col-img2{
     width: 100% !important;
     border-radius: 10px !important;
+}
+.recipes-c1 p{
+    font-size: 20px !important;
+}
+.profile{
+   width: 90% !important;
+}
+.client-div{
+    width: 80% !important;
+}
+.first-div{
+    width: 100% !important;
+}
+.first-div div{
+    width: 100% !important;
+}
+.img-profile{
+    width: 22% !important;
+}
+.customh2{
+    font-size: 40px !important;
+}
+.p-custom{
+    font-size: 25px !important;
 }
 }
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -233,6 +313,28 @@
 .col-img2{
     width: 100% !important;
     border-radius: 10px !important;
+}
+.profile{
+   width: 80% !important;
+}
+.client-div{
+    width: 45% !important;
+}
+.first-div{
+    width: 100% !important;
+}
+.img-div{
+    width: 30% !important;
+}
+.content-div{
+    width: 75% !important;
+}
+.client-div div p{
+    font-size: 14px !important;
+}
+.img-profile{
+    width: 80% !important;
+    height: 12vh !important;
 }
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -264,6 +366,28 @@
 .col-img2{
     width: 100% !important;
     border-radius: 10px !important;
+}
+.profile{
+   width: 60% !important;
+}
+.client-div{
+    width: 45% !important;
+}
+.first-div{
+    width: 100% !important;
+}
+.img-div{
+    width: 30% !important;
+}
+.content-div{
+    width: 75% !important;
+}
+.client-div div p{
+    font-size: 14px !important;
+}
+.img-profile{
+    width: 70% !important;
+    height: 12vh !important;
 }
 }
 @media screen and (min-width:1200px) and (max-width:1399px) {
@@ -297,6 +421,25 @@
 }
 .col-custom2{
     width: 20% !important;
+}
+.client-div{
+    width: 35% !important;
+}
+.first-div{
+    width: 100% !important;
+}
+.img-div{
+    width: 30% !important;
+}
+.content-div{
+    width: 75% !important;
+}
+.client-div div p{
+    font-size: 14px !important;
+}
+.img-profile{
+    width: 70% !important;
+    height: 10vh !important;
 }
 }
 @media screen and (min-width:1400px) {
@@ -338,5 +481,27 @@
 .col-img2:hover{
      background-color: white !important;
      opacity: 0.5 !important;
+}
+.client-div{
+    width: 35% !important;
+}
+.first-div{
+    width: 100% !important;
+}
+.img-div{
+    width: 30% !important;
+}
+.content-div{
+    width: 75% !important;
+}
+.client-div div p{
+    font-size: 16px !important;
+}
+.img-profile{
+    width: 60% !important;
+    height: 10vh !important;
+}
+.profile{
+   width: 45% !important;
 }
 }
