@@ -218,6 +218,10 @@
 .customer{
         color: #ebeaed !important;
 }
+.table{
+    border: none !important;
+    outline: none !important;
+}
 .bg-6{
      background-image:
     linear-gradient(
@@ -255,6 +259,15 @@
     padding-left: 25px !important;
     padding-right: 25px !important;
     border-radius: 30px !important;
+   
+}
+.ques-div{
+    padding: 35px !important;
+    background-color: #f3f2f4 !important;
+    border-radius: 6px !important;
+    /* max-width: 270px !important; */
+    margin-left: auto !important;
+    height: 38vh !important;
 }
 .button-div button{
      border: none !important;
@@ -267,6 +280,9 @@
     font-size: 1.25rem;
     padding: 10px 40px !important;
     font-family: DM Sans !important;
+}
+.button-div button:hover{
+    background-color: #52ada9 !important;
 }
 .p-div p{
         font-family: 'DM Sans', sans-serif !important;
@@ -287,8 +303,29 @@
     align-items: center !important;
     transition: all 0.25s ease !important;
 }
-.footer{
+.social-icons:hover{
+    transition: all 0.25s ease !important;
+    border-color: white !important;
+}
+.foot{
     background-color: #2a2a2a !important;
+}
+.footer-ul li{
+   list-style: none !important;
+       font-family: "DM Sans", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    line-height: 40px !important;
+}
+.footer-p{
+     list-style: none !important;
+       font-family: "DM Sans", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    line-height: 40px !important;
+}
+.footer-p:hover{
+    cursor: pointer !important;
 }
 /* media queries */
 @media screen and (max-width:566px) {
@@ -324,6 +361,12 @@
 }
 .p-custom{
     font-size: 22px !important;
+}
+.sweet-h2{
+    font-size: 40px !important;
+}
+.sweet-gap{
+    gap: 50px !important;
 }
 }
 @media screen and (min-width:567px) and (max-width:767px) {
@@ -363,6 +406,12 @@
 }
 .p-custom{
     font-size: 25px !important;
+}
+.sweet-h2{
+    font-size: 40px !important;
+}
+.sweet-gap{
+    gap: 50px !important;
 }
 }
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -575,5 +624,8 @@
 }
 .profile{
    width: 45% !important;
+}
+.sweet-gap{
+    gap: 65px !important;
 }
 }
